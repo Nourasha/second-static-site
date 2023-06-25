@@ -1,0 +1,345 @@
+@media only screen and (min-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        /* Permalink - use to edit and share this gradient:
+        https://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+        background: rgb(255,255,255); /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); 
+        background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); 
+        background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 );
+        margin: 0;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 2fr 3fr 1fr;
+        grid-template-areas: "header"
+        "main"
+        "footer";
+    }
+
+    header {
+        grid-area: header;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        background: url(header_background.jpg) center no-repeat;
+        background-size: cover;
+        align-self: stretch;
+        justify-self: stretch;
+    }
+    nav {
+        flex-grow: 1;
+        flex-shrink: 1;
+        height: 100px;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+        overflow: hidden;
+    }
+    nav ul li {
+        float: left;
+        width: 200px;
+        height: 50px;
+    }
+    @font-face {
+        font-family: 'Nerko One';
+        src: url('fonts/menu_font/NerkoOne-Regular.eot');
+        src: url('fonts/menu_font/NerkoOne-Regular.eot?#iefix') format('embedded-opentype'),
+            url('fonts/menu_font/NerkoOne-Regular.woff2') format('woff2'),
+            url('fonts/menu_font/NerkoOne-Regular.woff') format('woff'),
+            url('fonts/menu_font/NerkoOne-Regular.svg#NerkoOne-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    nav ul li a {
+        font-family: 'Nerko One';
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 25px;
+        text-decoration: none;
+        font-size: 32px;
+        width: 100px;
+    }
+    #logo {
+        width: 250px;
+        height: 100px;
+    }
+    header a {
+        width: 250px;
+        height: 100px;
+    }
+    header img {
+        width: 250px;
+        height: 100px;
+        flex-basis: 350px;
+
+    }
+    main {
+        grid-area: main;
+    }
+    .sign {
+        text-align: center;
+        font-family: 'Nerko One';
+    }
+    .main_article {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+        margin-top: 5%;
+    }
+    section img {
+        width: 300px;
+        height: 200px;
+    }
+    section h2 {
+        text-align: center;
+    }
+    section p {
+        text-align: justify;
+        width: 300px;
+    }
+
+    #contact_us {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #employees {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #employees img {
+        width: 300px;
+        height: 250px;
+    }
+    #employees p {
+        text-align: center;
+    }
+    .shop_parag {
+        text-align: center;
+    }
+    .shop_pris {
+        text-align: center;
+        color:  red;
+    }
+    .buttom_style {
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 2px;
+        color: white;
+        text-decoration: none;
+        margin-left: 40%;
+        font-size: 18px;
+        background-color: rgb(76,76,76); /* Permalink - use to edit and share this gradient:
+        https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,
+        1c1c1c+91,131313+100;Black+Gloss+%231 */ 
+        background: -moz-linear-gradient(-45deg,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%,
+        rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+    #plan p {
+        width: 900px;
+        font-size: larger;
+        margin-left: 2%;
+        line-height: 150%;
+    }
+    figure img {
+        width: 800px;
+        height: 500px;
+    }
+    #seo {
+        margin: 5%;
+    }
+    #seo p {
+        line-height: 150%;
+    }
+    footer {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+        background: rgb(69,72,77); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); 
+        background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); 
+        background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+        color: white;
+        grid-area: footer;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 5%;
+    }
+    footer ul {
+        list-style-type: none;
+        float: left;
+    }
+    footer ul li {
+        float: left;
+        margin: 1%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        /* Permalink - use to edit and share this gradient:
+        https://colorzilla.com/gradient-editor/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+        background: rgb(255,255,255); /* Old browsers */
+        background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); 
+        background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); 
+        background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 );
+        margin: 0;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas: "header"
+        "main"
+        "footer";
+    }
+
+    header {
+        grid-area: header;
+        background: url(header_background.jpg) center no-repeat;
+        background-size: cover;
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: left;
+        overflow: hidden;
+    }
+    nav ul li {
+        float: left;
+    }
+    @font-face {
+        font-family: 'Nerko One';
+        src: url('fonts/menu_font/NerkoOne-Regular.eot');
+        src: url('fonts/menu_font/NerkoOne-Regular.eot?#iefix') format('embedded-opentype'),
+            url('fonts/menu_font/NerkoOne-Regular.woff2') format('woff2'),
+            url('fonts/menu_font/NerkoOne-Regular.woff') format('woff'),
+            url('fonts/menu_font/NerkoOne-Regular.svg#NerkoOne-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+
+    nav ul li a {
+        font-family: 'Nerko One';
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 24px;   
+    }
+    header img {
+        width: 150px;
+        height: 100px;
+
+    }
+    main {
+        grid-area: main;
+    }
+    .sign {
+        text-align: center;
+        font-family: 'Nerko One';
+    }
+    .main_article {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+    }
+    section img {
+        width: 300px;
+        height: 200px;
+    }
+    section h2 {
+        text-align: center;
+    }
+    section p {
+        text-align: justify;
+        width: 300px;
+    }
+    .shop_pris {
+        color: red;
+    }
+    .buttom_style {
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 5px;
+        padding: 2px;
+        color: white;
+        text-decoration: none;
+        margin-left: 40%;
+        margin-bottom: 5%;
+        font-size: 18px;
+        background-color: rgb(76,76,76);/* Permalink - use to edit and share this gradient:
+        https://colorzilla.com/gradient-editor/#4c4c4c+0,595959+12,666666+25,474747+39,2c2c2c+50,000000+51,111111+60,2b2b2b+76,
+        1c1c1c+91,131313+100;Black+Gloss+%231 */
+        background: rgb(76,76,76); 
+        background: -moz-linear-gradient(-45deg,  rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(102,102,102,1) 25%,
+        rgba(71,71,71,1) 39%, rgba(44,44,44,1) 50%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg,  rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    }
+    #plan p {
+        font-size: larger;
+        margin-left: 2%;
+        line-height: 150%;
+    }
+    #seo {
+        margin: 5%;
+    }
+    #seo p {
+        line-height: 150%;
+    }
+    footer {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+        background: rgb(69,72,77); /* Old browsers */
+        background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); 
+        background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); 
+        background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+        color: white;
+        grid-area: footer;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 5%;
+    }
+    footer ul {
+        list-style-type: none;
+        float: left;
+    }
+    footer ul li {
+        float: left;
+        margin: 1%;
+    }
+}
